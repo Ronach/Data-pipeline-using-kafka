@@ -59,7 +59,7 @@ services:
     environment:
       ZOO_MY_ID: 1
 
-  # Ecrit en Scala. Temps Réel/Latence faible. Ingère/Diffuse de grands montants de données. Pub/Sub.
+  # Ecrit en Java/Scala. Apache Kafka est une plateforme open source d'agents de messages (brokers) en temps réel. Notions de topics, producers/consumers
   kafka:
     image: wurstmeister/kafka:2.13-2.8.1
     container_name: kafka
