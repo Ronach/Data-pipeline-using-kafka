@@ -1,6 +1,7 @@
 ---
 version: "3"
 
+# A named volume, these 2 lines are unecessary, it is by default.
 volumes:
   elasticsearch-data: {}
 
